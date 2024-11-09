@@ -80,9 +80,9 @@ div{
 }
 .navegacao a {
     text-decoration: none;
-    margin: 15px;
+    margin: 13px;
     color: rgb(34, 9, 175);
-    font-size: 16px;
+    font-size: 15px;
     transition: color 0.3s, transform 0.3s;
     
 }
@@ -180,6 +180,7 @@ section#imagem2{
    .nav{
     top:11.9vh;
    }
+ 
    .navegacao{
     margin-top: 22px;
     flex-direction: column;
