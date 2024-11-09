@@ -21,7 +21,7 @@ html, body{
 }
 /*Cabeçalho*/
 .header{
-    padding: auto 10px;
+    padding-top: 1px;
     background-color: black;
     color:white;
     text-align: center;
@@ -83,7 +83,7 @@ div{
     margin: 15px;
     color: rgb(34, 9, 175);
     font-size: 14px;
-    transition: color 0.3s, transform 0.3s;
+    transition: color 0.3s;
     
 }
 .navegacao a:hover{
@@ -178,7 +178,7 @@ section#imagem2{
     font-size: 8vh;
    }
    .nav{
-    top:11.9vh;
+    top:12vh;
    }
    .navegacao{
     margin-top: 50px;
