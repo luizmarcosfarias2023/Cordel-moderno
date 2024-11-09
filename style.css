@@ -21,7 +21,7 @@ html, body{
 }
 /*Cabeçalho*/
 .header{
-    padding: 15px;
+    padding: auto 10px;
     background-color: black;
     color:white;
     text-align: center;
@@ -29,6 +29,9 @@ html, body{
     top: 0px;
     width: 100%;
     z-index: 1000;
+}
+div{
+  
 }
 
 .header h1{
@@ -39,18 +42,21 @@ html, body{
     font-variant: small-caps; /*Essa opção ela da uma variação para fonte, ou seja, todas continuam em maiuscola só que a única que relamente da um som mais gritante é sempre a primeira lentra.*/
 }
 .header > p {
-   padding-bottom: 15px;
+   padding:25px;
 }
 
-.header > p > a{
+.paragrafo{
+    padding: 10px;
+}
+.header .div > p > a{
     text-decoration: none;
     font-weight: bold;
     color: rgba(16, 16, 245, 0.918);
-    font-size: 1.1em;
+    font-size: 1em;
 
     
 }
-.header > p > a:hover{
+.header .div > p > a:hover{
     text-decoration: none;
     color: red;
 }
@@ -60,11 +66,14 @@ html, body{
     
     font-size: 2.5vh;
     position: fixed;
-    top:22.1vh;
+    top:14vh;
     width: 100%;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.205);
     padding: 7px;
+}
+.navegacao{
+    margin-top: 20px;
 }
 .navegacao li{
     display: inline;
@@ -91,7 +100,6 @@ html, body{
 /*Corpo da Pagina*/
 .text{
     padding: 0;
-    padding-top: 25px;
     margin-top: 130px;
     background-color: white;
 }
@@ -152,13 +160,13 @@ section#imagem2{
     background-color: black;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 .rodape > p > a{
     text-decoration: none;
     font-weight: bold;
     color: blue;
-    font-size: 1.1em;
+    font-size: 16px;
 }
 
 .rodape > p > a:hover{
@@ -170,9 +178,10 @@ section#imagem2{
     font-size: 1.5em;
    }
    .nav{
-    top:22.1vh;
+    top:11.9vh;
    }
    .navegacao{
+    margin-top: 22px;
     flex-direction: column;
     align-items: center;
    }
@@ -182,14 +191,18 @@ section#imagem2{
     .text, .header, .rodape{
         padding: 1em;
     }
+    
     section .normal, section .imagem{
         font-size: 1em;
-       
+        
     }
     .imagem img{
         max-width: 100%;
         height: auto;
         border-radius: 5px;
+    }
+    .rodape{
+        padding: 4px;
     }
     
 }
@@ -203,6 +216,7 @@ section#imagem2{
         padding: 5px;
        
     }
+
     .navegacao li{
         margin: 0.3em 0;
     }
@@ -210,6 +224,7 @@ section#imagem2{
         font-size: 1em;
         padding: 1em;
     }
+   
     section .normal, section .imagem{
         padding: 0.5em;
     }
